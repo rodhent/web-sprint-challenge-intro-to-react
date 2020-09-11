@@ -8,7 +8,7 @@ const StyledDiv = styled.div`
     background: WHITESMOKE;
     border-radius: 2px;
     display: inline-block;
-    height: 200px;
+    height: 325px;
     margin: 1rem;
     position: relative;
     width: 300px;
@@ -41,8 +41,13 @@ const Character = ({ list }) => {
         <StyledDiv key={cuid()}>
           <div className="card">
             <h2>{list.name}</h2>
+            <p>Height: {list.height}</p>
+            <p>Mass: {list.mass}</p>
+            <p>Hair Color: {list.hair_color}</p>
+            <p>Skin Color: {list.skin_color}</p>
+            <p>Eye Color: {list.eye_color}</p>
+            <p>Birth Year: {list.birth_year}</p>
             <p>Gender: {list.gender}</p>
-            <p>Birth Year: {list.birth_year}'</p>
           </div>
         </StyledDiv>
       ))}
