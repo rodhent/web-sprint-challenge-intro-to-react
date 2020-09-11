@@ -2,8 +2,14 @@
   text-align: center;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+  font-size: 3rem;
 }
 
 /* write your parent styles in here for your App.js */
+
+body {
+  background: url("https://64.media.tumblr.com/aeac71b2d7d1fc15b7a54e9e71611095/tumblr_mskdulIcan1rdwlp0o1_500.gifv");
+  font-size: 16px;
+}

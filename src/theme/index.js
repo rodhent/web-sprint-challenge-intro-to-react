@@ -1,5 +1,5 @@
 export default {
-  white: "white",
+  white: "WHITESMOKE",
   black: "black",
   paddingSmall: "10px",
   paddingLarge: "20px",
